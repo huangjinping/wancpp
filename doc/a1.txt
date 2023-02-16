@@ -1,0 +1,7 @@
+# Crashlytics - Stack trace
+# Application: com.banco.gratis.bci.paypal.chile.fpay.cash.micopiloto.vicu.muevo.vicucash_app
+# Platform: android
+# Version: 1.0.3 (103)
+# Issue: 6f321a6dba47da59597f72a2d39a1ab2
+# Session: 63D9F667005F000137B99CAB51A72C48_DNE_1_v2
+# Date: Wed Feb 01 2023 13:22:03 GMT+0800 (中国标准时间)

@@ -1,6 +1,4 @@
-# wancpp
-
-c++ 学习链接
+README
 
 # CMakeList_demo
 
