@@ -70,6 +70,12 @@ build CMakeFiles/wancpp.dir/src/Func.cpp.o: CXX_COMPILER__wancpp_Debug /Users/hu
   OBJECT_DIR = CMakeFiles/wancpp.dir
   OBJECT_FILE_DIR = CMakeFiles/wancpp.dir/src
 
+build CMakeFiles/wancpp.dir/src/HttpDemo.cpp.o: CXX_COMPILER__wancpp_Debug /Users/huhuijie/Documents/GitHub/wancpp/src/HttpDemo.cpp || cmake_object_order_depends_target_wancpp
+  DEP_FILE = CMakeFiles/wancpp.dir/src/HttpDemo.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++11
+  OBJECT_DIR = CMakeFiles/wancpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/wancpp.dir/src
+
 build CMakeFiles/wancpp.dir/src/IOManager.cpp.o: CXX_COMPILER__wancpp_Debug /Users/huhuijie/Documents/GitHub/wancpp/src/IOManager.cpp || cmake_object_order_depends_target_wancpp
   DEP_FILE = CMakeFiles/wancpp.dir/src/IOManager.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++11
@@ -88,6 +94,12 @@ build CMakeFiles/wancpp.dir/src/TemplateManager.cpp.o: CXX_COMPILER__wancpp_Debu
   OBJECT_DIR = CMakeFiles/wancpp.dir
   OBJECT_FILE_DIR = CMakeFiles/wancpp.dir/src
 
+build CMakeFiles/wancpp.dir/src/json.cpp.o: CXX_COMPILER__wancpp_Debug /Users/huhuijie/Documents/GitHub/wancpp/src/json.cpp || cmake_object_order_depends_target_wancpp
+  DEP_FILE = CMakeFiles/wancpp.dir/src/json.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++11
+  OBJECT_DIR = CMakeFiles/wancpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/wancpp.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target wancpp
@@ -96,7 +108,7 @@ build CMakeFiles/wancpp.dir/src/TemplateManager.cpp.o: CXX_COMPILER__wancpp_Debu
 #############################################
 # Link the executable wancpp
 
-build wancpp: CXX_EXECUTABLE_LINKER__wancpp_Debug CMakeFiles/wancpp.dir/main.cpp.o CMakeFiles/wancpp.dir/src/DuoTai.cpp.o CMakeFiles/wancpp.dir/src/Father.cpp.o CMakeFiles/wancpp.dir/src/Func.cpp.o CMakeFiles/wancpp.dir/src/IOManager.cpp.o CMakeFiles/wancpp.dir/src/STLWork.cpp.o CMakeFiles/wancpp.dir/src/TemplateManager.cpp.o
+build wancpp: CXX_EXECUTABLE_LINKER__wancpp_Debug CMakeFiles/wancpp.dir/main.cpp.o CMakeFiles/wancpp.dir/src/DuoTai.cpp.o CMakeFiles/wancpp.dir/src/Father.cpp.o CMakeFiles/wancpp.dir/src/Func.cpp.o CMakeFiles/wancpp.dir/src/HttpDemo.cpp.o CMakeFiles/wancpp.dir/src/IOManager.cpp.o CMakeFiles/wancpp.dir/src/STLWork.cpp.o CMakeFiles/wancpp.dir/src/TemplateManager.cpp.o CMakeFiles/wancpp.dir/src/json.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
   OBJECT_DIR = CMakeFiles/wancpp.dir
   POST_BUILD = :

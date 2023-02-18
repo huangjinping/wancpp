@@ -5,6 +5,7 @@
 #include "src/IOManager.h"
 #include "src/TemplateManager.h"
 #include "src/STLWork.h"
+#include "src/HttpDemo.h"
 
 using namespace std;
 
@@ -24,7 +25,9 @@ int main() {
 
 //    TemplateManager manager;
 //    manager.start();
-    STLWork stlWork;
-    stlWork.start();
+//    STLWork stlWork;
+//    stlWork.start();
+    HttpDemo httpDemo;
+    httpDemo.start();
     return 0;
 }
